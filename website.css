@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background:rgb(118, 184, 184);
+    background:rgb(131, 194, 194);
     font-family: "Baloo Tamma 2", cursive;
 }
 
@@ -47,15 +47,26 @@ body {
 
 .navigation-link:hover {
     text-decoration: none;
-    border-bottom: 2px solid #b3953e;
+    border-bottom: 2px solid #be3658;
     transition: 0.5s ease;
 }
 
 .about {
-    background:rgb(3, 56, 56);
+    background:rgb(44, 112, 112);
     border-radius: 0.5 rem;
 }
 
 .card {
-    border-bottom: 8px solid #08532a;
+    border-bottom: 8px solid #ff0217;
+}
+#social-media{
+    background:grey;
+}
+.media_link{
+    padding: 1rem;
+    max-width: 12rem !important;
+    margin-left: 1rem;
+    border: 2px solid rgb(226, 17, 80) !important;
+    border-radius: 0.5rem;
+    height: 90px;
 }
